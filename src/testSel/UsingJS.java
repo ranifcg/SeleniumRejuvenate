@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 public class UsingJS {
 
 	public static void main(String[] args) throws InterruptedException {
+System.out.println ("Using GIT");
 		//System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver_win32\\chromedriver.exe");
 		System.setProperty("webdriver.edge.driver", "C:\\Drivers\\edgedriver_win64\\msedgedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "C:\\Drivers\\geckodriver-v0.32.0-win64\\geckodriver.exe");

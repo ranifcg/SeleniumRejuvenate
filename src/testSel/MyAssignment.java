@@ -40,7 +40,7 @@ public class MyAssignment {
 		driver.findElement(By.cssSelector("span.DayPicker-NavButton--next[aria-label=Next Month]")).click();
 		//<span tabindex="0" role="button" aria-label="Next Month" class="DayPicker-NavButton DayPicker-NavButton--next"></span>
 		Thread.sleep(2000);
-
+		System.out.println("Commiting GIT");
 		driver.close();
 	}
 
